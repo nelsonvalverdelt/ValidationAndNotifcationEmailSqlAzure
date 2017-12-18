@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Snac theme tempalte">
+    <meta name="author" content="NDT">
+    <meta name="keywords" content="Snac theme template">
+
+    <!-- Title Page-->
+    <title>UKU</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="css/send.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/linearicons/css/linearicons.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/lightbox2/css/lightbox.min.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+    <!--Favicons-->
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+</head>
+
+<body class="animsition">
+
+
+    <!-- Header start-->
+    <header class="header-absolute section-header js-header unsticky">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-logo" href="index.html">
+                    <img class="logo-light" src="images/icons/ic-logo.png" alt="Snac">
+                    <img class="logo-dark" src="images/icons/ic-logo-dark.png" alt="Snac">
+                </a>
+                <button class="navbar-toggler hamburger hamburger--slider" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#categorias">Categorías</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">ukuBOX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Suscripciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aliados">Aliados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+        
+    </header>
+    <!-- Header end-->
+
+    
+    <!-- Contact start-->
+    <section class="section section-contact-form bg-gray-50 p-t-90 p-b-100" id="contact">        
+        <div class="container">
+            <div class="image-content justify-content-center m-b-50 pos-relative wow zoomIn" data-wow-duration="0.5s">
+                <center><img class="img-fluid" src="images/logo.png" alt="#"></center>
+            </div>
+            <h3 class="section-heading section-heading--center m-b-45">Reserva Ahora</h3>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="messages" id="status"></div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="section-form-group m-b-50" id="contact-form" role="form" data-toggle="validator">
+                        <div class="input-item form-group">
+                            <div class="help-block with-errors"></div>
+                            <input class="au-input au-input-pill" type="text" id="name" name="name" placeholder="Tu Nombre" required data-error="Ingresa tu nombre.">
+                        </div>
+                        <div class="input-item form-group">
+                            <div class="help-block with-errors"></div>
+                            <input class="au-input au-input-pill" type="email" id="email" name="email" placeholder="Tu Email" required data-error="Necesitamos un email válido.">
+                        </div>
+                        <div class="input-item form-group">
+                            <div class="help-block with-errors"></div>
+                            <textarea class="au-input au-input-pill" placeholder="Cuéntanos un poco más de ti" id="info" name="info" style="height: 115px;"></textarea>
+                        </div>
+                        <div class="input-item form-group">
+                            <div class="help-block with-errors"></div>
+                            <input class="au-btn au-btn-pill au-btn-primary" type="button" id="send2" value="ENVIAR">
+                        </div>
+                        <div id="snackbar"></div>
+                        <div id="snackbar-error"></div>
+                    </form>
+                    <!-- <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <div class="contact-text contact-text-border">
+                                <p class="contact-text-title">Lets Talk</p>
+                                <p class="contact-text-content">(800) 123-6879</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="contact-text">
+                                <p class="contact-text-title">Address</p>
+                                <p class="contact-text-content">Snac Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact end-->
+
+    <!-- Social start-->
+    <div class="section section-socials p-t-50 p-b-50">
+        <div class="container">
+            <ul class="list-socials">
+                <li class="list-item">
+                    <a class="fa fa-facebook" href="#" data-toggle="tooltip" title="Facebook"></a>
+                </li>
+                <li class="list-item">
+                    <a class="fa fa-twitter" href="#" data-toggle="tooltip" title="Twitter"></a>
+                </li>
+                <!-- <li class="list-item">
+                    <a class="fa fa-dribbble" href="#" data-toggle="tooltip" title="Dribbble"></a>
+                </li>
+                <li class="list-item">
+                    <a class="fa fa-linkedin" href="#" data-toggle="tooltip" title="Linkedin"></a>
+                </li> -->
+                <li class="list-item">
+                    <a class="fa fa-youtube" href="#" data-toggle="tooltip" title="Youtube"></a>
+                </li>
+                <!-- <li class="list-item">
+                    <a class="fa fa-vimeo" href="#" data-toggle="tooltip" title="Vimeo"></a>
+                </li> -->
+                <li class="list-item">
+                    <a class="fa fa-instagram" href="#" data-toggle="tooltip" title="Instagram"></a>
+                </li>
+                <!-- <li class="list-item">
+                    <a class="fa fa-tumblr" href="#" data-toggle="tooltip" title="Tumblr"></a>
+                </li>
+                <li class="list-item">
+                    <a class="fa fa-behance" href="#" data-toggle="tooltip" title="Behance"></a>
+                </li>
+                <li class="list-item">
+                    <a class="fa fa-pinterest" href="#" data-toggle="tooltip" title="Pinterest"></a>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <!-- Social end-->
+
+    <!-- Footer start-->
+    <footer class="section section-footer p-t-80 p-b-60">
+        <div class="container">
+            <!-- <ul class="footer-menu-list h-list">
+                <li class="list-item">
+                    <a href="#">FEATURES</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">DOWNLOAD</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">BLOG</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">ABOUT</a>
+                </li>
+                <li class="list-item">
+                    <a href="#">PRIVACY POLICY</a>
+                </li>
+            </ul> -->
+            <p class="footer-text-copy">
+                <span>Built with</span>
+                <span class="fa fa-heart"></span>
+                <span>by UKU Team</span>
+            </p>
+            <p class="footer-text-copy">Powered by Microsoft Azure</p>
+        </div>
+    </footer>
+    <!-- Footer end-->
+
+
+    <div id="up-to-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/popper.js/popper.min.js"></script>
+    <script src="vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/slick/slick.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="vendor/wowjs/wow.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+    <!-- Special Vendor-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="vendor/validator/validator.min.js"></script>
+    <script src="js/config-map.js"></script>
+    <script src="js/config-contact.js"></script>
+    <!-- Server and validates-->
+    <script src="js/server.js"></script>
+</body>
+
+</html>
+<!-- end document-->
